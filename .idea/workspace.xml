@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4861bb2e-c724-46f7-9659-a95379a23ebd" name="Default Changelist" comment="" />
+    <list default="true" id="4861bb2e-c724-46f7-9659-a95379a23ebd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/BijuterieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/MasinaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/BijuterieDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/BijuterieDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/MasinaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/MasinaDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Entity/Bijuterie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Entity/Masina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Service/BijuterieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Service/MasinaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__create_bijuterie.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__creata_masina.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Controller/CeasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/CeasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Controller/LaptopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/LaptopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Controller/HomeController.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>

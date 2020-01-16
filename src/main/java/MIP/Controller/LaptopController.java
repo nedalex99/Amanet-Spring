@@ -3,8 +3,6 @@ package MIP.Controller;
 import MIP.Entity.Laptop;
 import MIP.Service.LaptopService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
