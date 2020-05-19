@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4861bb2e-c724-46f7-9659-a95379a23ebd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/BijuterieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/MasinaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/BijuterieDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/BijuterieDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/MasinaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/MasinaDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Entity/Bijuterie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Entity/Masina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Service/BijuterieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MIP/Service/MasinaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__create_bijuterie.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__creata_masina.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/ceas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/laptop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Controller/CeasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/CeasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Controller/HomeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Controller/LaptopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Controller/LaptopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Dao/CeasDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/CeasDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Dao/MasinaDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Dao/MasinaDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Entity/Bijuterie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Entity/Bijuterie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MIP/Entity/Masina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MIP/Entity/Masina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Controller/CeasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MIP/Controller/CeasController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Controller/LaptopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MIP/Controller/LaptopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Dao/CeasDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MIP/Dao/CeasDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Dao/MasinaDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MIP/Dao/MasinaDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Entity/Bijuterie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MIP/Entity/Bijuterie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MIP/Entity/Masina.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MIP/Entity/Masina.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-example-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

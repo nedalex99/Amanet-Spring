@@ -28,7 +28,7 @@ public class MasinaDaoImpl implements MasinaDao {
         int anFabricatie = masina.getAnFabricatie();
         int price = masina.getPrice();
 
-        return jdbcTemplate.update(sql, id, marca, marca, capacitateMotor, anFabricatie, price);
+        return jdbcTemplate.update(sql, id, marca, capacitateMotor, anFabricatie, price);
     }
 
     @Override

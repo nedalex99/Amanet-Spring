@@ -11,11 +11,11 @@ public class Masina {
     private int price;
 
     public Masina(
-            @JsonProperty int masinaid,
-            @JsonProperty String marca,
-            @JsonProperty int capacitateMotor,
-            @JsonProperty int anFabricatie,
-            @JsonProperty int price) {
+            @JsonProperty("masinaid") int masinaid,
+            @JsonProperty("marca") String marca,
+            @JsonProperty("capacitatemotor") int capacitateMotor,
+            @JsonProperty("anfabricatie") int anFabricatie,
+            @JsonProperty("price") int price) {
         this.masinaid = masinaid;
         this.marca = marca;
         this.capacitateMotor = capacitateMotor;

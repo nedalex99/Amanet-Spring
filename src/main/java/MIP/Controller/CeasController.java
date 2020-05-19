@@ -3,13 +3,15 @@ package MIP.Controller;
 import MIP.Entity.Ceas;
 import MIP.Service.CeasService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping("/ceas")
 public class CeasController {
 
@@ -25,19 +27,19 @@ public class CeasController {
         ceasService.addCeas(ceas);
     }
 
-    @GetMapping
+    /*@GetMapping
     public List<Ceas> getAllCeas(){
         return ceasService.getAllCeas();
-    }
+    }*/
 
-    /*@GetMapping
+    @GetMapping
     public String getAllCeas(Model model){
         List<Ceas> ceasuri = ceasService.getAllCeas();
 
         model.addAttribute("ceas", ceasuri);
 
         return "ceas";
-    }*/
+    }
 
     @GetMapping(path = "{id}")
     public Ceas getCeasById(@PathVariable("id") int id){

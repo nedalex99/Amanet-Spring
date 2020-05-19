@@ -3,13 +3,15 @@ package MIP.Controller;
 import MIP.Entity.Laptop;
 import MIP.Service.LaptopService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping("/laptop")
 public class LaptopController {
 
@@ -25,19 +27,19 @@ public class LaptopController {
         laptopService.addLaptop(laptop);
     }
 
-    @GetMapping
+    /*@GetMapping
     public List<Laptop> getAllLaptop(){
         return laptopService.getAllLaptop();
-    }
+    }*/
 
-   /* @GetMapping
+   @GetMapping
     public String getAllLaptop(Model model){
         List<Laptop> laptops = laptopService.getAllLaptop();
 
         model.addAttribute("laptop", laptops);
 
         return "laptop";
-    }*/
+    }
 
     @GetMapping(path = "{id}")
     public Laptop getLaptopById(@PathVariable("id") int id){

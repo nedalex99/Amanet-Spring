@@ -10,11 +10,11 @@ public class Bijuterie {
     private int price;
 
     public Bijuterie(
-            @JsonProperty int bijuterieid,
-            @JsonProperty String name,
-            @JsonProperty String material,
-            @JsonProperty int gramaj,
-            @JsonProperty int price) {
+            @JsonProperty("bijuterieid") int bijuterieid,
+            @JsonProperty("name") String name,
+            @JsonProperty("material") String material,
+            @JsonProperty("gramaj") int gramaj,
+            @JsonProperty("price") int price) {
         this.bijuterieid = bijuterieid;
         this.name = name;
         this.material = material;
